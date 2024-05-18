@@ -13,6 +13,15 @@
 		559AA92D2BF9033400AEFD41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559AA92B2BF9033400AEFD41 /* Main.storyboard */; };
 		559AA92F2BF9033500AEFD41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559AA92E2BF9033500AEFD41 /* Assets.xcassets */; };
 		559AA9322BF9033500AEFD41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559AA9302BF9033500AEFD41 /* LaunchScreen.storyboard */; };
+		559AA93A2BF9089A00AEFD41 /* BandTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559AA9392BF9089A00AEFD41 /* BandTableViewModel.swift */; };
+		559AA93E2BF90DD300AEFD41 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559AA93C2BF90DD300AEFD41 /* CustomTableViewCell.swift */; };
+		559AA93F2BF90DD300AEFD41 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 559AA93D2BF90DD300AEFD41 /* CustomTableViewCell.xib */; };
+		559AA9412BF9111C00AEFD41 /* AlbumTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559AA9402BF9111C00AEFD41 /* AlbumTableViewModel.swift */; };
+		559AA9442BF9135E00AEFD41 /* AlbumScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559AA9422BF9135E00AEFD41 /* AlbumScreenViewController.swift */; };
+		559AA9452BF9135E00AEFD41 /* AlbumScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 559AA9432BF9135E00AEFD41 /* AlbumScreenViewController.xib */; };
+		559AA9492BF9233300AEFD41 /* SongScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559AA9472BF9233300AEFD41 /* SongScreenViewController.swift */; };
+		559AA94A2BF9233300AEFD41 /* SongScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 559AA9482BF9233300AEFD41 /* SongScreenViewController.xib */; };
+		559AA94C2BF9246400AEFD41 /* SongTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559AA94B2BF9246400AEFD41 /* SongTableViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		559AA92E2BF9033500AEFD41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		559AA9312BF9033500AEFD41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		559AA9332BF9033500AEFD41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559AA9392BF9089A00AEFD41 /* BandTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandTableViewModel.swift; sourceTree = "<group>"; };
+		559AA93C2BF90DD300AEFD41 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		559AA93D2BF90DD300AEFD41 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		559AA9402BF9111C00AEFD41 /* AlbumTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewModel.swift; sourceTree = "<group>"; };
+		559AA9422BF9135E00AEFD41 /* AlbumScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumScreenViewController.swift; sourceTree = "<group>"; };
+		559AA9432BF9135E00AEFD41 /* AlbumScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumScreenViewController.xib; sourceTree = "<group>"; };
+		559AA9472BF9233300AEFD41 /* SongScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongScreenViewController.swift; sourceTree = "<group>"; };
+		559AA9482BF9233300AEFD41 /* SongScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SongScreenViewController.xib; sourceTree = "<group>"; };
+		559AA94B2BF9246400AEFD41 /* SongTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,8 @@
 		559AA9242BF9033400AEFD41 /* TableMusicBands */ = {
 			isa = PBXGroup;
 			children = (
+				559AA9462BF9231100AEFD41 /* SongScreen */,
+				559AA93B2BF90DA200AEFD41 /* AlbumScreen */,
 				559AA9252BF9033400AEFD41 /* AppDelegate.swift */,
 				559AA9272BF9033400AEFD41 /* SceneDelegate.swift */,
 				559AA9292BF9033400AEFD41 /* ViewController.swift */,
@@ -63,8 +83,31 @@
 				559AA92E2BF9033500AEFD41 /* Assets.xcassets */,
 				559AA9302BF9033500AEFD41 /* LaunchScreen.storyboard */,
 				559AA9332BF9033500AEFD41 /* Info.plist */,
+				559AA9392BF9089A00AEFD41 /* BandTableViewModel.swift */,
+				559AA9402BF9111C00AEFD41 /* AlbumTableViewModel.swift */,
+				559AA94B2BF9246400AEFD41 /* SongTableViewModel.swift */,
+				559AA93C2BF90DD300AEFD41 /* CustomTableViewCell.swift */,
+				559AA93D2BF90DD300AEFD41 /* CustomTableViewCell.xib */,
 			);
 			path = TableMusicBands;
+			sourceTree = "<group>";
+		};
+		559AA93B2BF90DA200AEFD41 /* AlbumScreen */ = {
+			isa = PBXGroup;
+			children = (
+				559AA9422BF9135E00AEFD41 /* AlbumScreenViewController.swift */,
+				559AA9432BF9135E00AEFD41 /* AlbumScreenViewController.xib */,
+			);
+			path = AlbumScreen;
+			sourceTree = "<group>";
+		};
+		559AA9462BF9231100AEFD41 /* SongScreen */ = {
+			isa = PBXGroup;
+			children = (
+				559AA9472BF9233300AEFD41 /* SongScreenViewController.swift */,
+				559AA9482BF9233300AEFD41 /* SongScreenViewController.xib */,
+			);
+			path = SongScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +169,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				559AA9322BF9033500AEFD41 /* LaunchScreen.storyboard in Resources */,
+				559AA94A2BF9233300AEFD41 /* SongScreenViewController.xib in Resources */,
 				559AA92F2BF9033500AEFD41 /* Assets.xcassets in Resources */,
+				559AA9452BF9135E00AEFD41 /* AlbumScreenViewController.xib in Resources */,
 				559AA92D2BF9033400AEFD41 /* Main.storyboard in Resources */,
+				559AA93F2BF90DD300AEFD41 /* CustomTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +185,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				559AA92A2BF9033400AEFD41 /* ViewController.swift in Sources */,
+				559AA9442BF9135E00AEFD41 /* AlbumScreenViewController.swift in Sources */,
+				559AA9412BF9111C00AEFD41 /* AlbumTableViewModel.swift in Sources */,
+				559AA93E2BF90DD300AEFD41 /* CustomTableViewCell.swift in Sources */,
+				559AA93A2BF9089A00AEFD41 /* BandTableViewModel.swift in Sources */,
+				559AA94C2BF9246400AEFD41 /* SongTableViewModel.swift in Sources */,
 				559AA9262BF9033400AEFD41 /* AppDelegate.swift in Sources */,
 				559AA9282BF9033400AEFD41 /* SceneDelegate.swift in Sources */,
+				559AA9492BF9233300AEFD41 /* SongScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,9 +358,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = iOSLabFIAngelLopez.TableMusicBands;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -333,9 +388,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = iOSLabFIAngelLopez.TableMusicBands;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
